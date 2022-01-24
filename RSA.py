@@ -1,7 +1,7 @@
 import rsa
 key = rsa.newkeys(3000) # Создать случайный ключ
-privateKey = key [1] # личный ключ
-publicKey = key [0] # открытый ключ
+privateKey = key[1] # личный ключ
+publicKey = key[0] # открытый ключ
 message = 'Text'
 print('Before encrypted:', message)
 message = message.encode()
