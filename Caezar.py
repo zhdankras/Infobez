@@ -4,7 +4,7 @@ file = open("1984.txt")
 text = file.read().lower()
 
 key = int(input('Введите ключ '))
-abc = 'марш'
+abc = 'абвгдеёжзийклмнопрстуфхцчшщъыьэюя'
 decode_text = ''
 c = 0
 for sym in text:
